@@ -54,8 +54,8 @@ nav ul li a:hover {
     color: #000000;
     border-radius: 5px;
     background-color: #ddd;
+    transition: 150ms linear;
 }
-
 /* Footer */
 footer {
     background: #333;
@@ -71,8 +71,12 @@ footer a {
 }
 
 footer a:hover {
-    text-decoration: underline;
+    color: #000000;
+    border-radius: 5px;
+    background-color: #ddd;
+    transition: 150ms linear;
 }
+
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);

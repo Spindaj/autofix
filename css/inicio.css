@@ -1,6 +1,4 @@
-/* Reset básico */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
 
 * {
     margin: 0;
@@ -16,7 +14,6 @@ body {
     flex-direction: column;
 }
 
-/* Header */
 header {
     background: #333;
     color: #fff;
@@ -31,20 +28,20 @@ header {
     align-items: center;
 }
 
-h1 {
+.container h1 {
     margin: 0;
 }
 
-nav ul {
+.container nav ul {
     list-style: none;
     display: flex;
 }
 
-nav ul li {
+.container nav ul li {
     margin-left: 20px;
 }
 
-nav ul li a {
+.container nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     background-color: #333;
@@ -54,65 +51,91 @@ nav ul li a:hover {
     color: #000000;
     border-radius: 5px;
     background-color: #ddd;
-}
-
-/* Hero Section */
-.hero {
-    background: #f4f4f4;
-    padding: 2rem 0;
-    text-align: center;
-}
-
-.hero h2 {
-    margin-bottom: 0.5rem;
-}
-
-.hero p {
-    margin-bottom: 1rem;
-}
-
-/* Vídeos */
-.videos {
-    padding: 2rem 0;
-}
-
-.videos h2 {
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
-
-.video-item {
-    margin: 1rem 0;
-}
-
-.video-item iframe {
-    width: 100%;
-    height: 315px; /* Altura padrão para vídeos do YouTube */
-    border: none;
-    border-radius: 5px;
-}
-
-/* Features Section */
-.features {
-    padding: 2rem 0;
+    transition: 150ms linear;
 }
 
 .features h2 {
     text-align: center;
+    margin-top: 3rem;
     margin-bottom: 1.5rem;
 }
 
-.feature-item {
-    margin: 1rem 0;
+.marcas-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espaço entre os cards */
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
 }
 
-/* Footer */
+.marcas-container a {
+    color: black;
+    text-decoration: none;
+}
+
+.marca-item {
+    background-color: #00000028;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: -3%;
+}
+
+.marca-item:hover{
+    background-color: #00000050;
+    transition: 500ms linear;
+    transform: scale(1.1);
+}
+
+.volsk-image{
+    width: 50%;
+}
+
+.che-image{
+    width: 50%;
+}
+
+.fiat-image{
+    width: 50%;
+}
+
+.honda-image{
+    width: 70%;
+}
+
+.toyo-image{
+    width: 85%;
+}
+
+.hyun-image{
+    width: 65%;
+}
+
+.niss-image{
+    width: 59%;
+}
+
+.ford-image{
+    width: 80%;
+}
+
+.reno-image{
+    width: 50%;
+}
+
 footer {
     background: #333;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-    margin-top: auto; /* Faz com que o rodapé fique no fundo da tela */
+    margin-top: auto;
 }
 
 footer a {
@@ -121,9 +144,13 @@ footer a {
 }
 
 footer a:hover {
-    text-decoration: underline;
+    color: #000000;
+    border-radius: 5px;
+    background-color: #ddd;
+    transition: 150ms linear;
 }
-a {
+
+.container a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 10px 15px;
