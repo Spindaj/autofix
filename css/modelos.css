@@ -10,7 +10,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-top: 7%;
 }
 
 .box-load {
@@ -39,6 +38,7 @@ body {
 
 .content {
     display: none;
+    margin-top: 5%;
 }
 
 header {
@@ -157,6 +157,7 @@ ul.search-bar li a:hover {
 .marcas-container {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     max-width: 1200px;
     width: 100%;
     padding: 20px;
@@ -167,8 +168,33 @@ ul.search-bar li a:hover {
     text-decoration: none;
 }
 
+.marcas-container2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+}
+
+.comeback {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 15px;
+    display: block;
+    font-weight: 600;
+}
+
+.comeback:hover {
+    transition: 150ms linear;
+    color: red;
+}
+
 .features h2 {
     text-align: center;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
 }
 
 .marca-item {
@@ -190,40 +216,232 @@ ul.search-bar li a:hover {
     background-color: #00000050;
 }
 
-.volsk-image {
-    width: 50%;
+.celta {
+    width: 90%;
 }
 
-.che-image {
-    width: 50%;
+.s10 {
+    width: 90%     ;
 }
 
-.fiat-image {
-    width: 50%;
+.vectra {
+    width: 90%;
 }
 
-.honda-image {
-    width: 70%;
-}
-
-.toyo-image {
-    width: 85%;
-}
-
-.hyun-image {
-    width: 65%;
-}
-
-.niss-image {
-    width: 59%;
-}
-
-.ford-image {
+.tracker {
     width: 80%;
 }
 
-.reno-image {
-    width: 50%;
+.spin {
+    width: 80%;
+}
+
+.montana {
+    width: 80%;
+}
+
+.onix {
+    width: 80%;
+}
+
+.corsa {
+    width: 80%;
+}
+
+.gol {
+    width: 80%;
+}
+
+.polo {
+    width: 80%;
+}
+
+.nivus {
+    width: 80%;
+}
+
+.t-cross {
+    width: 80%;
+}
+
+.taos {
+    width: 80%;
+}
+
+.virtus {
+    width: 80%;
+}
+
+.argo {
+    width: 80%;
+}
+
+.cronos {
+    width: 80%;
+}
+
+.mobi {
+    width: 80%;
+}
+
+.palio {
+    width: 55%;
+}
+
+.pulse {
+    width: 75%;
+}
+
+.strada {
+    width: 55%;
+}
+
+.toro {
+    width: 130%;
+}
+
+.uno {
+    width: 90%;
+}
+
+.corolla-image {
+    width: 80%;
+}
+
+.rav4-image {
+    width: 80%;
+}
+
+.camry-image{
+    width: 80%;
+}
+
+.yaris-image {
+    width: 90%;
+}
+
+.sw4-image {
+    width: 90%;
+}
+
+.hilux-image {
+    width: 90%;
+}
+
+.hb20-image {
+    width: 110%;
+}
+
+.creta-image {
+    width: 80%;
+}
+
+.tucson-image {
+    width: 80%;
+}
+
+.hb20s-image {
+    width: 80%;
+}
+
+.i30-image {
+    width: 85%;
+}
+
+.veloster-image {
+    width: 110%;
+}
+
+.sentra-image {
+    width: 110%;
+}
+
+.frontier-image {
+    width: 80%;
+}
+
+.versa-image {
+    width: 80%;
+}
+
+.kicks-image {
+    width: 90%;
+}
+
+.titan-image {
+    width: 110%;
+}
+
+.livina-image {
+    width: 100%;
+}
+
+.ka-image {
+    width: 80%;
+}
+
+.ranger-image {
+    width: 80%;
+}
+
+.fusion-image {
+    width: 80%;
+}
+
+.fiesta-image {
+    width: 80%;
+}
+
+.ecosport-image {
+    width: 80%;
+}
+
+.fox-image {
+    width: 80%;
+}
+
+.hrv-image {
+    width: 80%;
+}
+
+.city-image {
+    width: 80%;
+}
+
+.civic-image {
+    width: 80%;
+}
+
+.accord-image {
+    width: 80%;
+}
+
+.zrv-image {
+    width: 80%;
+}
+
+.crv-image {
+    width: 80%;
+}
+
+.kwid-image {
+    width: 80%;
+}
+
+.kardian-image {
+    width: 80%;
+}
+
+.logan-image {
+    width: 80%;
+}
+
+.sandero-image {
+    width: 80%;
+}
+
+.duster-image {
+    width: 80%;
 }
 
 footer {
