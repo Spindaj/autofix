@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoFix - Soluções para Problemas de Carro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/modelos.css" />
+    <script src="/js/script.js"></script>
+  </head>
+  <body onload="loading()">
+    <div class="box-load">
+      <div class="pre"></div>
+    </div>
+    <div class="content">
+      <header>
+        <div class="container">
+          <h1>AutoFix</h1>
+          <nav>
+            <div class="link">
+              <ul>
+                <li><a href="/videos.html">Vídeos</a></li>
+                <li><a href="/pecas.html">Peças</a></li>
+                <li><a href="/contato.html">Contato</a></li>
+              </ul>
+            </div>
+            <input
+              type="text"
+              id="searchBar"
+              onfocus="showList()"
+              onkeyup="filterList()"
+              placeholder="Pesquisar modelos..."
+            />
+            <ul id="carBrandList" class="search-bar">
+                <li><a href="carros/ranault-carros/kwid.html">Kwid</a></li>
+                <li><a href="carros/ranault-carros/kardian.html">Kardian</a></li>
+                <li><a href="carros/ranault-carros/logan.html">Logan</a></li>
+                <li><a href="carros/ranault-carros/sandero.html">Sandero</a></li>
+                <li><a href="carros/ranault-carros/duster.html">Duster</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="features">
+          <div class="header-container">
+            <a class="comeback" href="/inicio.html">Voltar</a>
+            <h2>RANAULT</h2>
+          </div>
+          <div class="marcas-container">
+            <a href="modelos/volkswagen.html" class="marca-item">
+              <img class="kwid-image" src="/image/modelos_renault/kwid.png" alt="" />
+            </a>
+            <a href="modelos/chevrolet.html" class="marca-item">
+              <img class="kardian-image" src="/image/modelos_renault/kardian.png" alt="" />
+            </a>
+            <a href="modelos/fiat.html" class="marca-item">
+              <img class="logan-image" src="/image/modelos_renault/logan.png" alt="" />
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <main>
+        <div class="marcas-container2">
+          <a href="modelos/honda.html" class="marca-item">
+            <img class="sandero-image" src="/image/modelos_renault/sandero.png" alt="" />
+          </a>
+          <a href="modelos/toyota.html" class="marca-item">
+            <img class="duster-image" src="/image/modelos_renault/duster.png" alt="" />
+          </a>
+        </div>
+      </main>
+
+      <footer>
+        <div class="container">
+          <p>&copy; 2024 AutoFix. Todos os direitos reservados.</p>
+          <p><a href="contato.html">Entre em Contato</a></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
